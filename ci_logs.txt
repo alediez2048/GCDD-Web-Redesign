@@ -1,0 +1,290 @@
+build	Set up job	﻿2026-02-05T17:23:09.1274349Z Current runner version: '2.331.0'
+build	Set up job	2026-02-05T17:23:09.1297208Z ##[group]Runner Image Provisioner
+build	Set up job	2026-02-05T17:23:09.1298088Z Hosted Compute Agent
+build	Set up job	2026-02-05T17:23:09.1298751Z Version: 20260123.484
+build	Set up job	2026-02-05T17:23:09.1299292Z Commit: 6bd6555ca37d84114959e1c76d2c01448ff61c5d
+build	Set up job	2026-02-05T17:23:09.1299967Z Build Date: 2026-01-23T19:41:17Z
+build	Set up job	2026-02-05T17:23:09.1300534Z Worker ID: {26859055-2a89-4a58-8a5f-c4236b2b3c0a}
+build	Set up job	2026-02-05T17:23:09.1301172Z Azure Region: westus3
+build	Set up job	2026-02-05T17:23:09.1301678Z ##[endgroup]
+build	Set up job	2026-02-05T17:23:09.1302959Z ##[group]Operating System
+build	Set up job	2026-02-05T17:23:09.1303473Z Ubuntu
+build	Set up job	2026-02-05T17:23:09.1303970Z 24.04.3
+build	Set up job	2026-02-05T17:23:09.1304359Z LTS
+build	Set up job	2026-02-05T17:23:09.1304819Z ##[endgroup]
+build	Set up job	2026-02-05T17:23:09.1305256Z ##[group]Runner Image
+build	Set up job	2026-02-05T17:23:09.1305755Z Image: ubuntu-24.04
+build	Set up job	2026-02-05T17:23:09.1306221Z Version: 20260126.10.1
+build	Set up job	2026-02-05T17:23:09.1307108Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260126.10/images/ubuntu/Ubuntu2404-Readme.md
+build	Set up job	2026-02-05T17:23:09.1308817Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260126.10
+build	Set up job	2026-02-05T17:23:09.1309651Z ##[endgroup]
+build	Set up job	2026-02-05T17:23:09.1310615Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2026-02-05T17:23:09.1312439Z Contents: read
+build	Set up job	2026-02-05T17:23:09.1312890Z Metadata: read
+build	Set up job	2026-02-05T17:23:09.1313386Z Pages: write
+build	Set up job	2026-02-05T17:23:09.1313800Z ##[endgroup]
+build	Set up job	2026-02-05T17:23:09.1315861Z Secret source: Actions
+build	Set up job	2026-02-05T17:23:09.1316459Z Prepare workflow directory
+build	Set up job	2026-02-05T17:23:09.1617570Z Prepare all required actions
+build	Set up job	2026-02-05T17:23:09.1657107Z Getting action download info
+build	Set up job	2026-02-05T17:23:09.7051783Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+build	Set up job	2026-02-05T17:23:09.7850515Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+build	Set up job	2026-02-05T17:23:09.8572048Z Download action repository 'actions/configure-pages@v4' (SHA:1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d)
+build	Set up job	2026-02-05T17:23:10.7071660Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+build	Set up job	2026-02-05T17:23:10.7897619Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+build	Set up job	2026-02-05T17:23:11.4249803Z Getting action download info
+build	Set up job	2026-02-05T17:23:11.6080538Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build	Set up job	2026-02-05T17:23:11.7312947Z Complete job name: build
+build	Checkout	﻿2026-02-05T17:23:11.8115524Z ##[group]Run actions/checkout@v4
+build	Checkout	2026-02-05T17:23:11.8116640Z with:
+build	Checkout	2026-02-05T17:23:11.8117338Z   repository: alediez2048/GCDD-Web-Redesign
+build	Checkout	2026-02-05T17:23:11.8118688Z   token: ***
+build	Checkout	2026-02-05T17:23:11.8119302Z   ssh-strict: true
+build	Checkout	2026-02-05T17:23:11.8119951Z   ssh-user: git
+build	Checkout	2026-02-05T17:23:11.8120596Z   persist-credentials: true
+build	Checkout	2026-02-05T17:23:11.8121342Z   clean: true
+build	Checkout	2026-02-05T17:23:11.8121999Z   sparse-checkout-cone-mode: true
+build	Checkout	2026-02-05T17:23:11.8122801Z   fetch-depth: 1
+build	Checkout	2026-02-05T17:23:11.8123422Z   fetch-tags: false
+build	Checkout	2026-02-05T17:23:11.8124094Z   show-progress: true
+build	Checkout	2026-02-05T17:23:11.8124743Z   lfs: false
+build	Checkout	2026-02-05T17:23:11.8125372Z   submodules: false
+build	Checkout	2026-02-05T17:23:11.8126040Z   set-safe-directory: true
+build	Checkout	2026-02-05T17:23:11.8126969Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:11.9133125Z Syncing repository: alediez2048/GCDD-Web-Redesign
+build	Checkout	2026-02-05T17:23:11.9135570Z ##[group]Getting Git version info
+build	Checkout	2026-02-05T17:23:11.9136795Z Working directory is '/home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign'
+build	Checkout	2026-02-05T17:23:11.9138833Z [command]/usr/bin/git version
+build	Checkout	2026-02-05T17:23:11.9176654Z git version 2.52.0
+build	Checkout	2026-02-05T17:23:11.9198979Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:11.9219363Z Temporarily overriding HOME='/home/runner/work/_temp/9cd449c4-829f-4649-9e99-b1de0b454e49' before making global git config changes
+build	Checkout	2026-02-05T17:23:11.9221628Z Adding repository directory to the temporary git global config as a safe directory
+build	Checkout	2026-02-05T17:23:11.9223965Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign
+build	Checkout	2026-02-05T17:23:11.9255973Z Deleting the contents of '/home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign'
+build	Checkout	2026-02-05T17:23:11.9259437Z ##[group]Initializing the repository
+build	Checkout	2026-02-05T17:23:11.9264611Z [command]/usr/bin/git init /home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign
+build	Checkout	2026-02-05T17:23:11.9350154Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Checkout	2026-02-05T17:23:11.9352844Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build	Checkout	2026-02-05T17:23:11.9354990Z hint: to use in all of your new repositories, which will suppress this warning,
+build	Checkout	2026-02-05T17:23:11.9356182Z hint: call:
+build	Checkout	2026-02-05T17:23:11.9356930Z hint:
+build	Checkout	2026-02-05T17:23:11.9357833Z hint: 	git config --global init.defaultBranch <name>
+build	Checkout	2026-02-05T17:23:11.9359503Z hint:
+build	Checkout	2026-02-05T17:23:11.9360489Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Checkout	2026-02-05T17:23:11.9361947Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Checkout	2026-02-05T17:23:11.9363109Z hint:
+build	Checkout	2026-02-05T17:23:11.9363777Z hint: 	git branch -m <name>
+build	Checkout	2026-02-05T17:23:11.9364928Z hint:
+build	Checkout	2026-02-05T17:23:11.9366270Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Checkout	2026-02-05T17:23:11.9368014Z Initialized empty Git repository in /home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign/.git/
+build	Checkout	2026-02-05T17:23:11.9371031Z [command]/usr/bin/git remote add origin https://github.com/alediez2048/GCDD-Web-Redesign
+build	Checkout	2026-02-05T17:23:11.9393620Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:11.9394758Z ##[group]Disabling automatic garbage collection
+build	Checkout	2026-02-05T17:23:11.9396791Z [command]/usr/bin/git config --local gc.auto 0
+build	Checkout	2026-02-05T17:23:11.9420915Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:11.9421986Z ##[group]Setting up auth
+build	Checkout	2026-02-05T17:23:11.9426905Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Checkout	2026-02-05T17:23:11.9451388Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Checkout	2026-02-05T17:23:11.9720004Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Checkout	2026-02-05T17:23:11.9747757Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Checkout	2026-02-05T17:23:11.9912439Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Checkout	2026-02-05T17:23:11.9945503Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Checkout	2026-02-05T17:23:12.0116408Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Checkout	2026-02-05T17:23:12.0144594Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:12.0146475Z ##[group]Fetching the repository
+build	Checkout	2026-02-05T17:23:12.0154999Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +7800968be42899caab121bee2d78d0f79c2f97b0:refs/remotes/origin/main
+build	Checkout	2026-02-05T17:23:12.4530374Z From https://github.com/alediez2048/GCDD-Web-Redesign
+build	Checkout	2026-02-05T17:23:12.4532394Z  * [new ref]         7800968be42899caab121bee2d78d0f79c2f97b0 -> origin/main
+build	Checkout	2026-02-05T17:23:12.4556287Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:12.4557800Z ##[group]Determining the checkout info
+build	Checkout	2026-02-05T17:23:12.4559577Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:12.4562566Z [command]/usr/bin/git sparse-checkout disable
+build	Checkout	2026-02-05T17:23:12.4596631Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Checkout	2026-02-05T17:23:12.4617595Z ##[group]Checking out the ref
+build	Checkout	2026-02-05T17:23:12.4619954Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build	Checkout	2026-02-05T17:23:12.4669219Z Switched to a new branch 'main'
+build	Checkout	2026-02-05T17:23:12.4670377Z branch 'main' set up to track 'origin/main'.
+build	Checkout	2026-02-05T17:23:12.4676517Z ##[endgroup]
+build	Checkout	2026-02-05T17:23:12.4704400Z [command]/usr/bin/git log -1 --format=%H
+build	Checkout	2026-02-05T17:23:12.4722506Z 7800968be42899caab121bee2d78d0f79c2f97b0
+build	Detect package manager	﻿2026-02-05T17:23:12.4922602Z ##[group]Run if [ -f "/home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign/yarn.lock" ]; then
+build	Detect package manager	2026-02-05T17:23:12.4925890Z [36;1mif [ -f "/home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign/yarn.lock" ]; then[0m
+build	Detect package manager	2026-02-05T17:23:12.4928536Z [36;1m  echo "manager=yarn" >> $GITHUB_OUTPUT[0m
+build	Detect package manager	2026-02-05T17:23:12.4930363Z [36;1m  echo "command=install" >> $GITHUB_OUTPUT[0m
+build	Detect package manager	2026-02-05T17:23:12.4932013Z [36;1m  echo "runner=yarn" >> $GITHUB_OUTPUT[0m
+build	Detect package manager	2026-02-05T17:23:12.4933400Z [36;1m  exit 0[0m
+build	Detect package manager	2026-02-05T17:23:12.4935303Z [36;1melif [ -f "/home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign/package.json" ]; then[0m
+build	Detect package manager	2026-02-05T17:23:12.4937775Z [36;1m  echo "manager=npm" >> $GITHUB_OUTPUT[0m
+build	Detect package manager	2026-02-05T17:23:12.4939642Z [36;1m  echo "command=ci" >> $GITHUB_OUTPUT[0m
+build	Detect package manager	2026-02-05T17:23:12.4941463Z [36;1m  echo "runner=npx --no-install" >> $GITHUB_OUTPUT[0m
+build	Detect package manager	2026-02-05T17:23:12.4942944Z [36;1m  exit 0[0m
+build	Detect package manager	2026-02-05T17:23:12.4943913Z [36;1melse[0m
+build	Detect package manager	2026-02-05T17:23:12.4945131Z [36;1m  echo "Unable to determine package manager"[0m
+build	Detect package manager	2026-02-05T17:23:12.4946692Z [36;1m  exit 1[0m
+build	Detect package manager	2026-02-05T17:23:12.4947644Z [36;1mfi[0m
+build	Detect package manager	2026-02-05T17:23:12.4986842Z shell: /usr/bin/bash -e {0}
+build	Detect package manager	2026-02-05T17:23:12.4988263Z ##[endgroup]
+build	Setup Node	﻿2026-02-05T17:23:12.5232059Z ##[group]Run actions/setup-node@v4
+build	Setup Node	2026-02-05T17:23:12.5232902Z with:
+build	Setup Node	2026-02-05T17:23:12.5233463Z   node-version: 20
+build	Setup Node	2026-02-05T17:23:12.5234096Z   cache: npm
+build	Setup Node	2026-02-05T17:23:12.5234695Z   always-auth: false
+build	Setup Node	2026-02-05T17:23:12.5235331Z   check-latest: false
+build	Setup Node	2026-02-05T17:23:12.5236235Z   token: ***
+build	Setup Node	2026-02-05T17:23:12.5236800Z ##[endgroup]
+build	Setup Node	2026-02-05T17:23:12.6881356Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+build	Setup Node	2026-02-05T17:23:12.6886377Z ##[group]Environment details
+build	Setup Node	2026-02-05T17:23:13.0268972Z node: v20.20.0
+build	Setup Node	2026-02-05T17:23:13.0269538Z npm: 10.8.2
+build	Setup Node	2026-02-05T17:23:13.0269927Z yarn: 1.22.22
+build	Setup Node	2026-02-05T17:23:13.0270702Z ##[endgroup]
+build	Setup Node	2026-02-05T17:23:13.0290608Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+build	Setup Node	2026-02-05T17:23:13.1291601Z /home/runner/.npm
+build	Setup Node	2026-02-05T17:23:13.4470352Z npm cache is not found
+build	Setup Pages	﻿2026-02-05T17:23:13.4571216Z ##[group]Run actions/configure-pages@v4
+build	Setup Pages	2026-02-05T17:23:13.4571533Z with:
+build	Setup Pages	2026-02-05T17:23:13.4571709Z   static_site_generator: next
+build	Setup Pages	2026-02-05T17:23:13.4572077Z   token: ***
+build	Setup Pages	2026-02-05T17:23:13.4572243Z   enablement: false
+build	Setup Pages	2026-02-05T17:23:13.4572430Z ##[endgroup]
+build	Setup Pages	2026-02-05T17:23:13.8328653Z Using default blank configuration
+build	Setup Pages	2026-02-05T17:23:13.8329311Z Injecting property=basePath and value=/GCDD-Web-Redesign in:
+build	Setup Pages	2026-02-05T17:23:13.8329754Z // Default Pages configuration for Next
+build	Setup Pages	2026-02-05T17:23:13.8330059Z const nextConfig = {}
+build	Setup Pages	2026-02-05T17:23:13.8330304Z module.exports = nextConfig
+build	Setup Pages	2026-02-05T17:23:13.8330471Z 
+build	Setup Pages	2026-02-05T17:23:13.8364852Z Found configuration object in indirect module export
+build	Setup Pages	2026-02-05T17:23:13.8365446Z Injection successful, new configuration:
+build	Setup Pages	2026-02-05T17:23:13.8365858Z // Default Pages configuration for Next
+build	Setup Pages	2026-02-05T17:23:13.8366376Z const nextConfig = {basePath: "/GCDD-Web-Redesign"}
+build	Setup Pages	2026-02-05T17:23:13.8367017Z module.exports = nextConfig
+build	Setup Pages	2026-02-05T17:23:13.8367210Z 
+build	Setup Pages	2026-02-05T17:23:13.8367654Z Injecting property=experimental.images.unoptimized and value=true in:
+build	Setup Pages	2026-02-05T17:23:13.8368453Z // Default Pages configuration for Next
+build	Setup Pages	2026-02-05T17:23:13.8368945Z const nextConfig = {basePath: "/GCDD-Web-Redesign"}
+build	Setup Pages	2026-02-05T17:23:13.8369334Z module.exports = nextConfig
+build	Setup Pages	2026-02-05T17:23:13.8369514Z 
+build	Setup Pages	2026-02-05T17:23:13.8375314Z Found configuration object in indirect module export
+build	Setup Pages	2026-02-05T17:23:13.8375883Z Injection successful, new configuration:
+build	Setup Pages	2026-02-05T17:23:13.8376368Z // Default Pages configuration for Next
+build	Setup Pages	2026-02-05T17:23:13.8377079Z const nextConfig = {experimental: {images: {unoptimized: true}},basePath: "/GCDD-Web-Redesign"}
+build	Setup Pages	2026-02-05T17:23:13.8377679Z module.exports = nextConfig
+build	Setup Pages	2026-02-05T17:23:13.8378068Z 
+build	Setup Pages	2026-02-05T17:23:13.8378462Z Injecting property=images.unoptimized and value=true in:
+build	Setup Pages	2026-02-05T17:23:13.8378858Z // Default Pages configuration for Next
+build	Setup Pages	2026-02-05T17:23:13.8379431Z const nextConfig = {experimental: {images: {unoptimized: true}},basePath: "/GCDD-Web-Redesign"}
+build	Setup Pages	2026-02-05T17:23:13.8379890Z module.exports = nextConfig
+build	Setup Pages	2026-02-05T17:23:13.8380043Z 
+build	Setup Pages	2026-02-05T17:23:13.8382402Z Found configuration object in indirect module export
+build	Setup Pages	2026-02-05T17:23:13.8383096Z Injection successful, new configuration:
+build	Setup Pages	2026-02-05T17:23:13.8383448Z // Default Pages configuration for Next
+build	Setup Pages	2026-02-05T17:23:13.8384121Z const nextConfig = {images: {unoptimized: true},experimental: {images: {unoptimized: true}},basePath: "/GCDD-Web-Redesign"}
+build	Setup Pages	2026-02-05T17:23:13.8384660Z module.exports = nextConfig
+build	Setup Pages	2026-02-05T17:23:13.8384827Z 
+build	Restore cache	﻿2026-02-05T17:23:14.0126407Z ##[group]Run actions/cache@v4
+build	Restore cache	2026-02-05T17:23:14.0126711Z with:
+build	Restore cache	2026-02-05T17:23:14.0126884Z   path: .next/cache
+build	Restore cache	
+build	Restore cache	2026-02-05T17:23:14.0127550Z   key: Linux-nextjs-4d60fe94d96402161da741243270e0d59ff88f1f3d7ffdfda3bdb681b40dc248-d87bb6fda361ae175548efa8e471822d7bef0805658941753aed0e9a1c6beb6e
+build	Restore cache	2026-02-05T17:23:14.0128627Z   restore-keys: Linux-nextjs-4d60fe94d96402161da741243270e0d59ff88f1f3d7ffdfda3bdb681b40dc248-
+build	Restore cache	
+build	Restore cache	2026-02-05T17:23:14.0129115Z   enableCrossOsArchive: false
+build	Restore cache	2026-02-05T17:23:14.0129354Z   fail-on-cache-miss: false
+build	Restore cache	2026-02-05T17:23:14.0129568Z   lookup-only: false
+build	Restore cache	2026-02-05T17:23:14.0129766Z   save-always: false
+build	Restore cache	2026-02-05T17:23:14.0129947Z env:
+build	Restore cache	2026-02-05T17:23:14.0130118Z   GITHUB_PAGES: true
+build	Restore cache	2026-02-05T17:23:14.0130296Z ##[endgroup]
+build	Restore cache	2026-02-05T17:23:14.3870038Z Cache not found for input keys: Linux-nextjs-4d60fe94d96402161da741243270e0d59ff88f1f3d7ffdfda3bdb681b40dc248-d87bb6fda361ae175548efa8e471822d7bef0805658941753aed0e9a1c6beb6e, Linux-nextjs-4d60fe94d96402161da741243270e0d59ff88f1f3d7ffdfda3bdb681b40dc248-
+build	Install dependencies	﻿2026-02-05T17:23:14.3934071Z ##[group]Run npm ci
+build	Install dependencies	2026-02-05T17:23:14.3934340Z [36;1mnpm ci[0m
+build	Install dependencies	2026-02-05T17:23:14.3960522Z shell: /usr/bin/bash -e {0}
+build	Install dependencies	2026-02-05T17:23:14.3960803Z env:
+build	Install dependencies	2026-02-05T17:23:14.3960991Z   GITHUB_PAGES: true
+build	Install dependencies	2026-02-05T17:23:14.3961192Z ##[endgroup]
+build	Install dependencies	2026-02-05T17:23:23.5007329Z 
+build	Install dependencies	2026-02-05T17:23:23.5008522Z added 367 packages, and audited 368 packages in 9s
+build	Install dependencies	2026-02-05T17:23:23.5008919Z 
+build	Install dependencies	2026-02-05T17:23:23.5009166Z 145 packages are looking for funding
+build	Install dependencies	2026-02-05T17:23:23.5009560Z   run `npm fund` for details
+build	Install dependencies	2026-02-05T17:23:23.5019434Z 
+build	Install dependencies	2026-02-05T17:23:23.5019802Z found 0 vulnerabilities
+build	Build with Next.js	﻿2026-02-05T17:23:23.5187225Z ##[group]Run npx --no-install next build
+build	Build with Next.js	2026-02-05T17:23:23.5187559Z [36;1mnpx --no-install next build[0m
+build	Build with Next.js	2026-02-05T17:23:23.5205586Z shell: /usr/bin/bash -e {0}
+build	Build with Next.js	2026-02-05T17:23:23.5205840Z env:
+build	Build with Next.js	2026-02-05T17:23:23.5206017Z   GITHUB_PAGES: true
+build	Build with Next.js	2026-02-05T17:23:23.5206219Z ##[endgroup]
+build	Build with Next.js	2026-02-05T17:23:24.2614223Z ⚠ Invalid next.config.js options detected: 
+build	Build with Next.js	2026-02-05T17:23:24.2617529Z ⚠     Unrecognized key(s) in object: 'images' at "experimental"
+build	Build with Next.js	2026-02-05T17:23:24.2618465Z ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+build	Build with Next.js	2026-02-05T17:23:24.2749956Z ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+build	Build with Next.js	2026-02-05T17:23:24.2827874Z Attention: Next.js now collects completely anonymous telemetry regarding usage.
+build	Build with Next.js	2026-02-05T17:23:24.2829316Z This information is used to shape Next.js' roadmap and prioritize features.
+build	Build with Next.js	2026-02-05T17:23:24.2830860Z You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+build	Build with Next.js	2026-02-05T17:23:24.2832142Z https://nextjs.org/telemetry
+build	Build with Next.js	2026-02-05T17:23:24.2832439Z 
+build	Build with Next.js	2026-02-05T17:23:24.2947967Z ▲ Next.js 16.1.6 (Turbopack)
+build	Build with Next.js	2026-02-05T17:23:24.2948858Z - Experiments (use with caution):
+build	Build with Next.js	2026-02-05T17:23:24.2949385Z   ? images (invalid experimental key)
+build	Build with Next.js	2026-02-05T17:23:24.2949688Z 
+build	Build with Next.js	2026-02-05T17:23:24.3521994Z   Creating an optimized production build ...
+build	Build with Next.js	2026-02-05T17:23:27.6512533Z ✓ Compiled successfully in 3.0s
+build	Build with Next.js	2026-02-05T17:23:27.6569737Z   Running TypeScript ...
+build	Build with Next.js	2026-02-05T17:23:29.7768054Z   Collecting page data using 3 workers ...
+build	Build with Next.js	2026-02-05T17:23:30.1306051Z   Generating static pages using 3 workers (0/4) ...
+build	Build with Next.js	2026-02-05T17:23:30.2557212Z   Generating static pages using 3 workers (1/4) 
+build	Build with Next.js	2026-02-05T17:23:30.2592082Z   Generating static pages using 3 workers (2/4) 
+build	Build with Next.js	2026-02-05T17:23:30.2594281Z   Generating static pages using 3 workers (3/4) 
+build	Build with Next.js	2026-02-05T17:23:30.2595911Z ✓ Generating static pages using 3 workers (4/4) in 129.1ms
+build	Build with Next.js	2026-02-05T17:23:30.2644259Z   Finalizing page optimization ...
+build	Build with Next.js	2026-02-05T17:23:30.2707426Z 
+build	Build with Next.js	2026-02-05T17:23:30.2721861Z Route (app)
+build	Build with Next.js	2026-02-05T17:23:30.2722424Z ┌ ○ /
+build	Build with Next.js	2026-02-05T17:23:30.2722747Z └ ○ /_not-found
+build	Build with Next.js	2026-02-05T17:23:30.2722952Z 
+build	Build with Next.js	2026-02-05T17:23:30.2722970Z 
+build	Build with Next.js	2026-02-05T17:23:30.2723385Z ○  (Static)  prerendered as static content
+build	Build with Next.js	2026-02-05T17:23:30.2723705Z 
+build	Upload artifact	﻿2026-02-05T17:23:30.3627764Z ##[group]Run actions/upload-pages-artifact@v3
+build	Upload artifact	2026-02-05T17:23:30.3628064Z with:
+build	Upload artifact	2026-02-05T17:23:30.3628439Z   path: ./out
+build	Upload artifact	2026-02-05T17:23:30.3628608Z   name: github-pages
+build	Upload artifact	2026-02-05T17:23:30.3628799Z   retention-days: 1
+build	Upload artifact	2026-02-05T17:23:30.3701974Z env:
+build	Upload artifact	2026-02-05T17:23:30.3702238Z   GITHUB_PAGES: true
+build	Upload artifact	2026-02-05T17:23:30.3702440Z ##[endgroup]
+build	Upload artifact	2026-02-05T17:23:30.3776105Z ##[group]Run echo ::group::Archive artifact
+build	Upload artifact	2026-02-05T17:23:30.3776424Z [36;1mecho ::group::Archive artifact[0m
+build	Upload artifact	2026-02-05T17:23:30.3776659Z [36;1mtar \[0m
+build	Upload artifact	2026-02-05T17:23:30.3776881Z [36;1m  --dereference --hard-dereference \[0m
+build	Upload artifact	2026-02-05T17:23:30.3777157Z [36;1m  --directory "$INPUT_PATH" \[0m
+build	Upload artifact	2026-02-05T17:23:30.3777410Z [36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \[0m
+build	Upload artifact	2026-02-05T17:23:30.3777664Z [36;1m  --exclude=.git \[0m
+build	Upload artifact	2026-02-05T17:23:30.3777870Z [36;1m  --exclude=.github \[0m
+build	Upload artifact	2026-02-05T17:23:30.3778081Z [36;1m  .[0m
+build	Upload artifact	2026-02-05T17:23:30.3778396Z [36;1mecho ::endgroup::[0m
+build	Upload artifact	2026-02-05T17:23:30.3914491Z shell: /usr/bin/sh -e {0}
+build	Upload artifact	2026-02-05T17:23:30.3914795Z env:
+build	Upload artifact	2026-02-05T17:23:30.3914992Z   GITHUB_PAGES: true
+build	Upload artifact	2026-02-05T17:23:30.3915183Z   INPUT_PATH: ./out
+build	Upload artifact	2026-02-05T17:23:30.3915371Z ##[endgroup]
+build	Upload artifact	2026-02-05T17:23:30.3960554Z ##[group]Archive artifact
+build	Upload artifact	2026-02-05T17:23:30.3973087Z tar: out: Cannot open: No such file or directory
+build	Upload artifact	2026-02-05T17:23:30.3973725Z tar: Error is not recoverable: exiting now
+build	Upload artifact	2026-02-05T17:23:30.3985424Z ##[error]Process completed with exit code 2.
+build	Post Checkout	﻿2026-02-05T17:23:30.4119719Z Post job cleanup.
+build	Post Checkout	2026-02-05T17:23:30.4980965Z [command]/usr/bin/git version
+build	Post Checkout	2026-02-05T17:23:30.5012999Z git version 2.52.0
+build	Post Checkout	2026-02-05T17:23:30.5049987Z Temporarily overriding HOME='/home/runner/work/_temp/12541332-6033-4bcb-ae1b-ca4b10a40b43' before making global git config changes
+build	Post Checkout	2026-02-05T17:23:30.5050812Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Checkout	2026-02-05T17:23:30.5055090Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/GCDD-Web-Redesign/GCDD-Web-Redesign
+build	Post Checkout	2026-02-05T17:23:30.5085269Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Checkout	2026-02-05T17:23:30.5111913Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Checkout	2026-02-05T17:23:30.5288658Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Checkout	2026-02-05T17:23:30.5307325Z http.https://github.com/.extraheader
+build	Post Checkout	2026-02-05T17:23:30.5317574Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	Post Checkout	2026-02-05T17:23:30.5343350Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Post Checkout	2026-02-05T17:23:30.5512716Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Post Checkout	2026-02-05T17:23:30.5538067Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Complete job	﻿2026-02-05T17:23:30.5851737Z Cleaning up orphan processes
