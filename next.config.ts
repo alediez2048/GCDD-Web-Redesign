@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/GCDD-Web-Redesign',
+  assetPrefix: '/GCDD-Web-Redesign',
 };
 
 export default nextConfig;
