@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GCDD Group Web Redesign
+
+**Production URL**: [https://alediez2048.github.io/GCDD-Web-Redesign/](https://alediez2048.github.io/GCDD-Web-Redesign/)
+
+This is a modern [Next.js](https://nextjs.org) project built for GCDD Group.
 
 ## Getting Started
 
