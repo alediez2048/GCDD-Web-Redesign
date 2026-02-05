@@ -8,4 +8,4 @@ const nextConfig = {
   assetPrefix: '/GCDD-Web-Redesign',
 };
 
-export default nextConfig;
+module.exports = nextConfig;
