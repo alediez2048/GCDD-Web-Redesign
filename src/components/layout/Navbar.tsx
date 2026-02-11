@@ -29,7 +29,7 @@ const Navbar = () => {
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-                <Link href="/" className="text-2xl font-display font-bold tracking-tight text-foreground">
+                <Link href="/" className="text-2xl font-display font-bold tracking-tight text-basalt">
                     GCDD<span className="text-accent">GROUP</span>
                 </Link>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Link
                             key={link.name}
                             href={link.href}
-                            className="text-sm font-medium hover:text-accent transition-colors uppercase tracking-widest"
+                            className="text-sm font-medium text-basalt hover:text-accent transition-colors uppercase tracking-widest"
                         >
                             {link.name}
                         </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-foreground"
+                    className="md:hidden text-basalt"
                     onClick={() => setIsOpen(!isOpen)}
                     aria-label="Toggle menu"
                 >
